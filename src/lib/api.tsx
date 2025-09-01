@@ -1,6 +1,6 @@
 // lib/api.ts
-const BASE = "http://localhost:5000";
-
+// const BASE = "http://localhost:5000";
+const BASE = "https://real-estate-project-backend-2.onrender.com"; //  Render ka backend
 // Attach Authorization header if token is present
 const authHeaders = () => {
   const token = localStorage.getItem("token");

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Use environment variable for API base URL
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000/api';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://real-estate-project-backend-2.onrender.com/api';
 
 // Create axios instance
 const api = axios.create({
