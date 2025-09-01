@@ -30,5 +30,5 @@
 //     </div>
 //   );
 // };
-
+//}
 // export default Index;
